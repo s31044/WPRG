@@ -1,0 +1,86 @@
+nav.zad1 {
+}
+a.zad1 {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    text-decoration: none;
+     color: inherit;
+}
+ul.zad1 {
+    background-color: #f2f2f2;
+    color: #333;
+    list-style: none;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+li.zad1 {
+    background-color: #f2f2f2;
+    color: #333;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+form.zad2 {
+    display: grid;
+    width: 500px;
+    margin: 20px;
+    offset-distance: 20px;
+}
+label.zad2 {
+    input {
+        width: 500px;
+        height: 30px;
+    }
+    padding-bottom: 10px;
+}
+button.zad2 {
+    display: block;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 60px;
+    color: #fff;
+    background-color: #333;
+    height: 30px;
+    navbutton_background_color: #777777;
+}
+div.circle {
+    border-radius: 50px;
+    border-color: red;
+    width: 0;
+    margin-left: 40%;
+    padding: 50px;
+    background-color: red;
+}
+.container {
+    position: relative;
+    height: 200px;
+}
+.white-block {
+    height: 100px;
+    margin-top: 0;
+    background-color: #f2f2f2;
+}
+.red-block {
+    height: 100px;
+    margin-bottom: 0;
+    background-color: red;
+}
+img.zad5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+p.wrapper {
+    text-align: center;
+}
+p.text {
+    input.zad5 {
+        visibility: hidden;
+    }
+}
+p.el {
+    margin: 0 10px;
+}
