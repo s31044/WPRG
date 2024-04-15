@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .pudełko{
+            display: flex;
+            border: 2px solid;
+            height: 200px;
+            justify-content: space-evenly;
+        }
+        .kolumna{
+            text-align: center;
+            background-color: lightblue;
+            flex-grow: 1;
+            margin: 5px;
+            padding-top: 20px;
+        }
+        .pudełko_2,0{
+            align-items: center;
+            display: flex;
+            border: 2px solid;
+            height: 200px;
+            justify-content: center;
+        }
+        .pudło{
+            text-align: center;
+            background-color: lightblue;
+            margin: 5px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pudełko">
+        <div class="kolumna">Kolumna 1</div>
+        <div class="kolumna">Kolumna 2</div>
+        <div class="kolumna">Kolumna 3</div>
+    </div>
+
+<hr>
+
+    <div class="udełko_2,0">
+        <div class="pudło">Element 1</div>
+        <div class="pudło">Element 2</div>
+        <div class="pudło">Element 2</div>
+    </div>
+</body>
+</html>
