@@ -1,0 +1,15 @@
+form {
+    border-style: solid;
+    border-radius: 20px;
+    border-color: blue;
+    color: #333333;
+    text-align: center;
+    background-color: #777777;
+    background-size: auto;
+    margin: 20px;
+    height: 200px;
+}
+body {
+    background-color: #aaaaaa;
+    background-size: 500px;
+}
