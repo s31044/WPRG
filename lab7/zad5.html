@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ach, brakowało mi tytułu</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="a1">
+        <form method="post">
+          <label><input type="number" name="a"></label>
+          <label><input type="number" name="b"></label><br>
+          <label><input type="radio"  name="c" value="1">Dodawanie</label>
+          <label><input type="radio"  name="c" value="2">Odejmowanie</label>
+          <label><input type="radio"  name="c" value="3">Mnożenie</label>
+          <label><input type="radio"  name="c" value="4">Dzielenie</label><br>
+          <button type="submit">Oblicz</button>
+        </form>
+        <span>
+        <?php
+        if($c==="1"){
+            echo ($a+$b);
+        }
+        ?>
+        </span>
+    </div>
+</body>
+</html>
